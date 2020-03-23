@@ -112,3 +112,56 @@ body {
     color: white;
     font-size: 40px;
 }
+
+.place-card-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.place-card {
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    background-color: ivory;
+    border-radius: 5px;
+}
+
+.place-card>.header-img>img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.meta-info {
+    color: grey;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.place-title {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.meta-price {
+    color: grey;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.meta-rating {
+    color: grey;
+    font-size: 12px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.meta-rating>.tiny {
+    font-size: 12px;
+    margin-right: 0px;
+}
+
+.meta-rating-body {
+    margin-left: 10px;
+}
